@@ -1,4 +1,4 @@
-#1.Write a MIPS program to take two integer values from the user, add these values and print the output
+#Write a MIPS program to take two integer values from the user, add these values and print the output
 
 .data
 msg1: .asciiz "Enter number 1: "
