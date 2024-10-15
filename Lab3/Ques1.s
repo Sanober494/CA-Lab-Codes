@@ -1,3 +1,19 @@
+# To read a number N from input and check if it is prime or not. Display the result to the user.
+#flag = 1
+#for (i = 2; i <= N / 2; i++) 
+#{ 
+#    if (n % i == 0) 
+#    	{ 
+#            flag = 0; 
+#            break; 
+#        } 
+  
+#    if (flag == 1) { 
+#        printf("%d is a prime number", n); 
+#    } 
+#    else { 
+#        printf("%d is not a prime number", n); 
+#    } }
 
 .data
 msg: .asciiz "Enter a number: "
