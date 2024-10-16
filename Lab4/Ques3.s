@@ -36,7 +36,7 @@ sumloop:
     move    $a0, $t7
     syscall
 
-#print space to better visibility
+#print space for better visibility
 li $v0, 4
 la $a0, sp
 syscall
