@@ -47,3 +47,42 @@ even:
 end_program:
         li      $v0, 10                
         syscall
+
+#method two:
+
+.data
+msg: .asciiz "Enter number one: "
+msg1: .asciiz "The number is even " 
+msg2: .asciiz "The number is odd "
+
+.text
+main:
+
+li $v0, 4
+la $a0, msg
+syscall
+
+li $v0, 5
+syscall
+move $t0, $v0
+
+rem $t1, $t0,2
+li $t2, 0
+
+beq $t1, $t2, even
+
+odd:
+li $v0, 4
+la $a0, msg2
+syscall
+j ep
+
+even:
+li $v0,4
+la $a0, msg1
+syscall
+j ep
+
+ep:
+li $v0,10
+syscall
