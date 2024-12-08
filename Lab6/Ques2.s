@@ -35,8 +35,6 @@ revLoop:
     j revLoop
 
 ep:
-    sb $zero, 0($t9)       # Add null terminator to the reversed string
-
     # Print message
     li $v0, 4
     la $a0, msg2
