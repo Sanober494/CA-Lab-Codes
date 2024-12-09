@@ -1,3 +1,17 @@
+# Implement recursive binary search
+#Recursive binary search
+#int bin_search(int A[], int data, int lo, int hi)
+#{
+#  int mid;
+#  if (lo > hi) return -1
+#  mid = (lo + high)/2;
+#  if ( data == A[mid]) return mid
+#  if ( data < A[mid]) return bin_search(A, data, lo, mid-1)
+#  return bin_search(A, data, mid, high+1)
+#}
+
+
+
 .data
 array: .word 28, 35, 59, 60, 61, 79, 82, 86, 87, 97  # Sorted array to search in
 length: .word 10                                     # Length of the array (10 elements)
