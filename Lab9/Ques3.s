@@ -1,4 +1,4 @@
-#Find the output of polinomial ax^2 + bx + c for user-input x.
+#Find the output of polynomial ax^2 + bx + c for user-input x.
 
 
 .data
